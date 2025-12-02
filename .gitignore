@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Instance folder for Flask applications
+instance/
+
+# Flask-specific caches
+.webassets-cache/
+
+# Test-related files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database files (if using SQLite)
+*.db
+*.sqlite3
+
+# Configuration files with sensitive data (if not using environment variables)
+# config.py
+# .env
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
