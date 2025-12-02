@@ -1,7 +1,8 @@
 # Virtual Environment
 .venv/
-env/
+.env/
 venv/
+section/
 
 # Python compiled files
 __pycache__/
